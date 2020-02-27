@@ -1,0 +1,287 @@
+html{
+  scroll-behavior: smooth;}
+body {margin: 0px;
+      background: #FCD0BA;
+      padding: 0px;
+      font-family: arial;
+      font-size: 100%;
+}
+
+html, body {height: 100%
+}
+
+.images_logo{width: 150px;
+            max-width: 100%;
+              margin: 0px;
+}
+
+.header {background-color: #FCD0BA;
+        position: fixed;
+        width: 100%;
+        max-width: 100%;
+}
+
+.header_logo {color: #000;
+              float:left;
+              display: block;
+              padding: 5px;
+              margin-left: 50px;
+              text-decoration: none;
+              position: fixed;
+              max-width: 100%;
+}
+
+.header_menu{float:right;
+              margin: 0px;
+              margin-right: 50px;
+              margin-bottom: 10px;
+              padding: 0px;
+}
+
+.header_menu_item {display: inline-block;
+}
+
+.header_menu_item a {color: #765D69;
+                    display: block;
+                    padding: 30px;
+                    font-family: crimson, sans-serif;
+                    font-size: 0.75em;
+                    text-decoration: none;
+}
+
+.header_menu_item a:hover {background: #FD9E6F
+}
+
+#home{
+  height: 700px;
+  display: inline-block;
+  width: 100%;
+  max-width: 100%;
+}
+
+div.split2 div{
+    float: left;
+    color: #765D69;
+    width: 45%;
+    width: 49%;
+    width: 45%;
+    padding: 0 2%;
+}
+
+.photo {width: 542px;
+      max-width: 100%;
+      position: relative; right: 500px;
+}
+
+.main_home {font-family: crimson, sans-serif;
+            font-size: 3.125em;
+            color: #765D69;
+            margin-top:250px;
+            position: relative; left: 800px;
+}
+
+.second_home {font-family: crimson, sans-serif;
+            font-size: 2.125em;
+            color: #765D69;
+            position: relative; left: 800px;
+}
+
+#about_me{height: 600px;
+          display: inline-block;
+          width: 100%;
+          max-width: 100%;
+}
+
+.title_main {font-family: crimson, sans-serif;
+        color: #765D69;
+        font-size: 1.5em;
+        padding: 0px;
+        text-align: center;
+        margin-bottom: -20px;
+}
+
+.main_about {font-family: crimson, sans-serif;
+        color: #765D69;
+        font-size: 1em;
+        text-align: center;
+        line-height: 150%;
+}
+
+.title {font-family: crimson, sans-serif;
+        color: #765D69;
+        font-size: 1em;
+        padding: 0px;
+        margin: auto;
+        text-align: center;
+        text-decoration: none;
+}
+
+div.split3 div{
+    float: left;
+    font-family: crimson, sans-serif;
+    color: #765D69;
+    width: 29%;
+    width: 33%;
+    width: 29%;
+    padding: 0 2%
+}
+
+.title_languages {font-family: crimson, sans-serif;
+        color: #765D69;
+        font-size: 1em;
+        margin: 0px;
+        text-align: center;
+        margin-bottom: -40px;
+        margin-top: -60px;
+}
+
+.flags_div {text-align: center;
+            margin: 20px 0;
+            padding: 10px;
+}
+
+.flags_div div { margin:10px;
+                padding: 10px;
+                max-width: 100%;
+                display: inline-block;
+                text-align: left;
+}
+.flags {width: 50px;
+        max-width: 100%
+        padding: 10px;}
+
+#architecture{
+  height: 600px;
+  display: inline-block;
+  width: 100%;
+}
+
+.cards {max-width: 1300px;
+        margin: 20px auto;
+}
+
+.card {background: #765D69;
+      width: 30%;
+      margin: 0 1.5%;
+      float: left;
+}
+
+.link_card { text-decoration: none;
+            color: #FCD0BA;
+}
+
+.card_images {width: 100%;
+              height: auto;
+}
+
+.card_copy {padding: 10px;
+            font-family: crimson, sans-serif;
+            font-size: 1em;
+            color: #FCD0BA;
+            line-height: 150%;
+}
+
+#ux_ui_design{
+  height: 700px;
+  display: inline-block;
+  width: 100%;
+}
+
+#contact{
+  height: 200px;
+  display: inline-block;
+  width: 100%;
+}
+
+.images_contact{ width: 80px;
+                max-width: 100%;
+                padding: 70px;
+                margin-left: 20px;
+}
+
+.footer {background: #765D69;
+        height: 82px;
+        margin-top: 30px;
+}
+
+.footer_item{color: #FCD0BA;
+            display: block;
+            float: right;
+            padding: 35px;
+            text-decoration: none;
+            font-size: 0.75em;
+            text-align: right;
+}
+
+.footer_contact {color: #FCD0BA;
+                float: left;
+                padding: 20px;
+                font-size: 0.75em;
+                margin-left: 15px;
+                text-align: left;
+                display: inline-block;
+}
+
+
+
+
+/*----------page article--------------*/
+
+.article { background: #FFF8E7;
+          padding: 20px;
+          margin-top: 20px;
+          margin-left: 200px;
+          margin-right: 200px;
+}
+
+.article_copy {max-width: 1000px;
+                margin: 10px auto;
+                background: #FFF8E7;
+                padding: 5px;
+                line-height: 180%;
+                text-align: justify;
+                color: #765D69;
+                font-family: crimson, sans-serif;
+                font-size: 1em;
+}
+
+.title_article {font-family: crimson, sans-serif;
+        color: #765D69;
+        font-size: 1.5em;
+        text-align: left;
+        margin-bottom: 25px;
+}
+
+.article_image { height: 61.8%;
+                padding: 5px;
+                margin-left: 195px;
+}
+
+.article_content_images {width: 600px;
+                        max-width: 100%;
+}
+
+.article_link {font-family: crimson, sans-serif;
+              color: #FD9E6F;
+              font-size: 1em;
+              text-align: left;
+              line-height: 150%;
+              text-decoration: underline;
+              text-align: left;
+}
+/*----------page article--------------*/
+
+
+.clearfix:after {
+  visibility: hidden;
+  display: block;
+  font-size: 0;
+  content: " ";
+  clear: both;
+  height: 0;
+}
+.clearfix { display: inline-block; }
+/* start commented backslash hack \*/
+* html .clearfix { height: 1%; }
+.clearfix { display: block; }
+/* close commented backslash hack */
