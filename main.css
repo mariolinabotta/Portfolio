@@ -7,7 +7,8 @@ body {margin: 0px;
       font-size: 100%;
 }
 
-html, body {height: 100%
+html, body {height: 100%;
+            width: 100%;
 }
 
 .images_logo{width: 150px;
@@ -70,20 +71,20 @@ div.split2 div{
 
 .photo {width: 542px;
       max-width: 100%;
-      position: relative; right: 500px;
+      position: relative; right: 550px;
 }
 
 .main_home {font-family: crimson, sans-serif;
             font-size: 3.125em;
             color: #765D69;
             margin-top:250px;
-            position: relative; left: 800px;
+            position: relative; left: 750px;
 }
 
 .second_home {font-family: crimson, sans-serif;
             font-size: 2.125em;
             color: #765D69;
-            position: relative; left: 800px;
+            position: relative; left: 750px;
 }
 
 #about_me{height: 600px;
@@ -195,7 +196,7 @@ div.split3 div{
 
 .images_contact{ width: 80px;
                 max-width: 100%;
-                padding: 70px;
+                padding: 60px;
                 margin-left: 20px;
 }
 
@@ -252,10 +253,14 @@ div.split3 div{
         margin-bottom: 25px;
 }
 
-.article_image { height: 61.8%;
-                padding: 5px;
-                margin-left: 195px;
+.cover_dimension {margin-top: -20px;
+                  margin-left: 200px;
+                  margin-right: 200px;
 }
+
+.article_image  {max-width: 100%;
+
+                }
 
 .article_content_images {width: 600px;
                         max-width: 100%;
